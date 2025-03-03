@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <nav id="navbar">
+  <body class="flex-container">
+    <nav id="navbar" class="flex-container">
       <a href="#" class="title">PetPetMaster</a>
       <ul class="nav-links">
         <li><a href="#value-proposition">Why Me?</a></li>
@@ -17,27 +17,29 @@
       </ul>
     </nav>
 
-    <div class="section" id="hero">
-      <div class="hero-tagline">Let me pet your dog or cat</div>
-      <img src="" alt="">
+    <div id="hero" class="flex-container">
+      <div class="hero-tagline card">Let me cuddle <br> your pet</div>
     </div>
 
     <div class="section" id="value-proposition">
       <div class="section-title">Why me?</div>
-      <div class="vp-reasons">
-        <div class="vp-reason">
+      <div class="vp-reasons flex-container">
+        <div class="vp-reason card">
+          <img src="./static/pet-house.png" class="img vp-img">
           I'm good with animals
         </div>
-        <div class="vp-reason">
+        <div class="vp-reason card">
+          <img src="./static/no-money.png" class="img vp-img">
           I will pet them for free
         </div>
-        <div class="vp-reason">
+        <div class="vp-reason card">
+          <img src="./static/molecule.png" class="img vp-img">
           I'm at a low point in life, so I need the dophamine
         </div>
       </div>
     </div>
 
-    <div class="section" id="call-to-action">
+    <div class="section card" id="call-to-action">
       <div class="section-title">So what are you waiting for?</div>
       <div class="cta-button">
         <a href="#contact">Meet Me Now!</a>
@@ -46,38 +48,38 @@
 
     <div class="section" id="social-proof">
       <div class="section-title">Hundreds of happy clients</div>
-      <div class="reviews">
-        <div class="review">
-          <img src="" alt="">
+      <div class="reviews flex-container">
+        <div class="review card">
+          <img src="./static/tennant.jpg" class="img">
           <div class="review-name">
-            Rachel Creedence
+            David Ninebeetle
           </div>
           <div class="review-content">
             My dog has never been happier
           </div>
         </div>
-        <div class="review">
-          <img src="" alt="">
+        <div class="review card">
+          <img src="./static/alyx.webp" class="img">
           <div class="review-name">
-            Jerma Rhatt
-          </div>
-          <div class="review-content">
-            My cat was purring for a week non-stop
-          </div>
-        </div>
-        <div class="review">
-          <img src="" alt="">
-          <div class="review-name">
-            Alyx Vance
+            Alex Dance
           </div>
           <div class="review-content">
             He stole my dog
           </div>
         </div>
+        <div class="review card">
+          <img src="./static/jerma.webp" class="img">
+          <div class="review-name">
+            Jerma Rhatt
+          </div>
+          <div class="review-content">
+            My cat was purring non-stop for a week 
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="section" id="contact">
+    <div class="section card flex-container" id="contact">
       <div class="section-title">
         Contact me
       </div>
