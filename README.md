@@ -1,22 +1,36 @@
-# Lab 2 - Landing page
+# PetPetMaster Landing Page
 
-Create a web page for your/friends/relatives business (example: car-rent, cookies-shop, crypto-scam)
+PetPetMaster is a lighthearted and fun website dedicated to one simple mission: cuddling your pets! Whether it's a dog, cat, or even a turtle, the goal is to shower them with affection, completely free of charge.
 
-## Customer requirements
+## Sections
 
-- Some form of navigation to sections (links, buttons)
-- Call to action
-- At least 4 sections ([see examples](https://webflow.com/blog/high-converting-landing-page))
-- Pleasant to the eyes
+- Hero Section – An eye-catcher for the site.
+- Value Proposition – Why I'm the perfect choice to pet your animals.
+- Call to Action – Invitation to contact me.
+- Reviews – Glowing reviews from past clients.
+- Contacts – Ways to get in touch.
 
-## Dev requirements
+## Screenshots
+Here are some screenshots of the landing page:
 
-- Use vanilla CSS and HTML (no frameworks)
-- Have a decent git history (no one commit)
-- The page should be deployed on a free hosting service (example: GitHub Pages, Vercel, Netlify)
-- Project repo should have a README with a short description of the landing page topic, screenshots, and a link to the live demo
+### Hero Section
+![Hero Section](screenshots/hero.png)
 
-## Other requirements:
+### Value Proposition
+![Value Proposition](screenshots/vp.png)
 
-- For potential maximal mark, a WIP version should be submitted during the class
-- Use index.html, reset.css
+### Call to Action
+![Call to Action](screenshots/cta.png)
+
+### Reviews
+![Reviews](screenshots/reviews.png)
+
+### Contacts
+![Contacts](screenshots/contacts.png)
+
+## Live Demo
+Check out the live demo of the landing page: [Live Demo](https://niksays.github.io/tum-web-lab2/) 
+
+## Attributions
+- Icons from Flaticon.com
+- Photos of Jerma985, David Tennant, Alyx Vance
