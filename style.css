@@ -153,7 +153,7 @@ body {
     z-index: 999;
     width: 10rem;
     height: 10rem;
-    animation: fadeInOut 6s ease-in;
+    animation: fadeIn 6s ease-in, bobble 3s infinite;
 }
 
 .mascot img {
@@ -187,8 +187,14 @@ body {
     opacity: 1;
 }
 
-@keyframes fadeInOut {
+@keyframes fadeIn {
     0% { opacity: 0; }
     50% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+@keyframes bobble {
+    0% { translate: 0px -10px; }
+    50% { translate: 0px 0px; }
+    100% { translate: 0px -10px; }
 }
