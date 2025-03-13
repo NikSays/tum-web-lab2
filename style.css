@@ -65,24 +65,6 @@ body {
     margin-bottom: 2rem;;
 }
 
-#hero {
-    height: 30rem;
-    padding: 3rem 0;
-    text-align: center;
-    background-image: url("./static/cats.jpg");
-    background-size: auto 100%;
-    align-items: center;
-    margin-top: -2rem; /*no gap*/
-}
-
-.hero-tagline {
-    font-size: 80px;
-    font-weight: bold;
-    color: white;
-    backdrop-filter: blur(10px) brightness(60%);
-    padding: 3rem;
-}
-
 .vp-reason {
     background-color: #4caf50;
     color: white;
